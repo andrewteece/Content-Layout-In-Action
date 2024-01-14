@@ -38,7 +38,7 @@
 /* Utility Classes */
 
 .flow-content > * + * {
-  margin-top: var(--flow-space), var(--spacer);
+  margin-top: var(--spacer);
 }
 
 .wrapper {
@@ -59,12 +59,12 @@
 @media (min-width: 40em) {
   .split {
     flex-direction: row;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
   }
 
-  .split > * {
+  /*.split > * {
     flex-basis: 100%;
-  }
+  } */
 
   .split > * + * {
     margin: 0 0 0 var(--spacer);
@@ -85,6 +85,7 @@ h1,
 h2,
 h3 {
   font-weight: var(--fw-bold);
+  line-height: 1.1;
 }
 
 h1 {
