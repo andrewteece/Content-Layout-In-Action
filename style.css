@@ -4,4 +4,35 @@
 
 :root {
   --ff-primary: 'Roboto', sans-serif;
+
+  --spacer: 1rem;
+
+  --clr-neutral-100: #fff;
+  --clr-neutral-400: #333;
+  --clr-neutral-900: #111;
+
+  --clr-primary-400: #3c1500;
+
+  --fw-bold: 900;
+  --fw-reg: 300;
+
+  --fs-18: 1.125rem;
+  --fs-24: 1.5rem;
+  --fs-36: 2.25rem;
+  --fs-48: 3rem;
 }
+
+/* Reset */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility Classes */
