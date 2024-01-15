@@ -37,6 +37,10 @@
 
 /* Utility Classes */
 
+.bg-dark {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
 .flow-content > * + * {
   margin-top: var(--spacer);
 }
@@ -62,9 +66,9 @@
     /*justify-content: space-between;*/
   }
 
-  /*.split > * {
+  .split > * {
     flex-basis: 100%;
-  } */
+  }
 
   .split > * + * {
     margin: 0 0 0 var(--spacer);
@@ -100,6 +104,11 @@ h3 {
   font-size: var(--fs-24);
 }
 
+.section--one {
+  background-image: url(img/hero-bg.jpg);
+  background-size: cover;
+}
+
 /* General Layout */
 
 section {
@@ -115,9 +124,11 @@ section {
   font-weight: var(--fw-bold);
   color: var(--clr-neutral-100);
   background: var(--clr-primary-400);
+  border-radius: 0.6em;
 }
 
 .card {
   padding: var(--spacer);
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.8em;
 }
