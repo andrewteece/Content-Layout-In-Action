@@ -77,6 +77,18 @@ img {
   .split > * + * {
     margin: 0 0 0 var(--spacer);
   }
+
+  .col-1 {
+    flex-basis: 25%;
+  }
+
+  .col-2 {
+    flex-basis: 50%;
+  }
+
+  .col-3 {
+    flex-basis: 75%;
+  }
 }
 
 /* Body Styles */
