@@ -35,6 +35,10 @@
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Utility Classes */
 
 .bg-dark {
@@ -125,6 +129,14 @@ section {
   color: var(--clr-neutral-100);
   background: var(--clr-primary-400);
   border-radius: 0.6em;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--clr-primary-400);
+  background: var(--clr-neutral-100);
+  outline: 2px solid var(--clr-primary-400);
+  transition: all 400ms ease-in-out;
 }
 
 .card {
